@@ -11,7 +11,7 @@ try:
     # File is being filtered
     # available is a list which contains downloadable files
     available = file.streams.filter(progressive=True, mime_type="video/mp4")
-    # prints the contain in the available
+    # prints the element in the available
     for i in available:
         print(i)
 
